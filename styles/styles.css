@@ -1,8 +1,176 @@
 
-.open-sans-normal {
-  font-family: "Open Sans", sans-serif;
+
+.raleway-normal {
+  font-family: "Raleway", sans-serif;
   font-optical-sizing: auto;
+  font-weight: normal;
   font-style: normal;
-  font-variation-settings:
-    "wdth" 100;
+}
+
+
+/* main styles */
+
+body{
+    background-color: #f5f8ff;
+}
+
+.bg-container{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+
+/* shared styles */
+
+.primary-color{
+    color: #4E47FF;
+}
+.btn-primary{
+    font-size: 16px;
+    font-weight: 600;
+    padding: 12px 36px;
+    background-color: #4E47FF;
+    color: white;
+    border: none;
+    border-radius: 10px;
+}
+.btn-primary:hover{
+    cursor: pointer;
+    background-color: #7673da;
+}
+.text-center{
+    text-align: center;
+}
+
+
+/* header styles */
+.header{
+    background: url(../Assets/Hero-bg.png);
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 0px;
+}
+.logo{
+    font-weight: 800;
+    font-size: 34px;
+    font-style: inherit;
+    font-family: inter;
+}
+.header-content{
+    text-align: center;
+    padding: 154px 0px;
+}
+.header-title{
+    font-size: 65px;
+    font-weight: 800;
+
+}
+
+/* action styles */
+.action-container{
+    display: flex;
+    justify-content: space-between;
+    padding: 154px 0px;
+    align-items: center;
+}
+
+.action-img img{
+    width: 403px;
+    height: auto;
+    border-radius: 48px;
+}
+.action-text{
+    width: 517px;
+}
+.action-title{
+    font-size: 42px;
+    font-weight: 600;
+}
+.action-description{
+    font-size: 24px;
+}
+
+/* counter styles */
+
+.counter{
+    background-color:rgba(78, 71, 255, 0.1);
+    border: none;
+    border-radius: 24px;
+    padding: 50px 80px;
+}
+.counter-header{
+    font-size: 38px;
+}
+.counter-items{
+    display: flex;
+    justify-content: space-around;
+    gap: 150px;
+}
+.counter-text{
+    font-size: 80px;
+    color: #4E47FF;
+    padding: 0px;
+    margin: 0px;
+    font-family: inter;
+}
+.counter-description{
+    font-family: inter;
+    font-size: 20px;
+    font-weight: 200;
+    padding: 0px;
+    margin: 0px;
+}
+
+/* user section */
+
+.testimonial{
+    padding: 154px 0px;
+}
+.testmonial-header{
+    font-size: 42px;
+    text-align: center;
+    margin: 50px;
+}
+.testimonial-items{
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+}
+.destimonial-item{
+    border: none;
+    border-radius: 14px;
+    box-shadow: rgba(255, 255, 255, 0.5);
+    background-color: white;
+    padding: 24px;
+}
+.testimonial-title{
+    font-size: 22px;
+    font-weight: 600;
+}
+.t-client-profile{
+    display: flex;
+    justify-content: left;
+    gap: 10px;
+    text-align: left;
+}
+.t-client-profile img{
+    width: 40px;
+    height: 40px;
+    border: none;
+    border-radius: 50%;
+}
+.reviewer-name{
+    margin: 0px;
+    padding: 0px;
+    font-size: 16px;
+    color: #757575;
+}
+.t-reviews-date{
+    margin: 0px;
+    padding: 5px 0px 0px 0px;
+    color: #b3b3b3;
+    font-size: 14px;
 }
