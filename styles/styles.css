@@ -1,4 +1,4 @@
-
+/* google font */
 
 .raleway-normal {
   font-family: "Raleway", sans-serif;
@@ -39,6 +39,10 @@ body{
 }
 .text-center{
     text-align: center;
+}
+a{
+    color: white;
+    text-decoration: none;
 }
 
 
@@ -90,6 +94,7 @@ body{
 }
 .action-description{
     font-size: 24px;
+    color: #252432;
 }
 
 /* counter styles */
@@ -98,7 +103,7 @@ body{
     background-color:rgba(78, 71, 255, 0.1);
     border: none;
     border-radius: 24px;
-    padding: 50px 80px;
+    padding: 50px 0px;
 }
 .counter-header{
     font-size: 38px;
@@ -176,10 +181,11 @@ body{
 
 /* focus styles */
 .focus-container{
+    width: 1140px;
     background-color: white;
     border: none;
     border-radius: 14px;
-    padding: 71px 150px;
+    padding: 71px 0px;
     margin-bottom: 154px;
 }
 .focus-header{
@@ -224,18 +230,27 @@ body{
 }
 .form input, textarea{
     font-size: 18px;
-    padding: 20px 32px;
+    padding: 20px 0px;
     margin: 10px 0px 20px 0px;
     border: none;
     border-color: #D6DDED;
     border-width: 1px;
     border-radius: 10px;
+    box-sizing: border-box;
+}
+.form input[type=text], input[type=email], textarea {
+  width: 100%;
+  padding: 20px 32px;
+  box-sizing: border-box;
 }
 .btn-form{
     display: block;
-    width: 497px;
-    width: 100%;
     border: none;
+    width: 100%;
+    padding: 14px 0px;
+    font-size: 16px;
+    cursor: pointer;
+    text-align: center;
 }
 
 /* footer styles */
