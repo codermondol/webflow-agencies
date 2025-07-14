@@ -242,3 +242,30 @@ body{
 footer{
     background-color: white;
 }
+.footer-container{
+    width: 530px;
+    padding: 154px 0px;
+}
+.footer-logo{
+    font-weight: 800;
+    font-size: 100px;
+    font-style: inherit;
+    font-family: inter;
+    text-transform: capitalize;
+}
+.footer-description{
+    font-weight: 300;
+}
+.footer-menu ul{
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+}
+.footer-menu ul li{
+    text-align: center;
+}
+.footer-menu ul li a{
+    display: block;
+    color: #8987A1;
+    text-decoration: none;
+}
