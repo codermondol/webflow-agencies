@@ -60,7 +60,6 @@ a{
     font-weight: 800;
     font-size: 34px;
     font-style: inherit;
-    font-family: inter;
 }
 .header-content{
     text-align: center;
@@ -118,10 +117,8 @@ a{
     color: #4E47FF;
     padding: 0px;
     margin: 0px;
-    font-family: inter;
 }
 .counter-description{
-    font-family: inter;
     font-size: 20px;
     font-weight: 200;
     padding: 0px;
@@ -225,7 +222,6 @@ a{
 }
 .form label{
     font-size: 18px;
-    font-family: inter;
     font-weight: 600;
 }
 .form input, textarea{
@@ -265,7 +261,6 @@ footer{
     font-weight: 800;
     font-size: 100px;
     font-style: inherit;
-    font-family: inter;
     text-transform: capitalize;
 }
 .footer-description{
