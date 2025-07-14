@@ -9,7 +9,6 @@
 
 
 /* main styles */
-
 body{
     background-color: #f5f8ff;
 }
@@ -173,4 +172,30 @@ body{
     padding: 5px 0px 0px 0px;
     color: #b3b3b3;
     font-size: 14px;
+}
+
+/* focus styles */
+.focus-container{
+    background-color: white;
+    border: none;
+    border-radius: 14px;
+    padding: 71px 150px;
+    margin-bottom: 154px;
+}
+.focus-header{
+    font-size: 50px;
+    font-weight: 600;
+    margin: 0px;
+    padding: 0px;
+}
+.focus-description{
+    color: rgba(0, 0, 0, 0.5);
+    font-weight: 400;
+}
+.focus-container button{
+    margin-bottom: 20px;
+}
+.focus-img img{
+    border: none;
+    border-radius: 48px;
 }
