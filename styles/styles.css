@@ -199,3 +199,46 @@ body{
     border: none;
     border-radius: 48px;
 }
+/* contact styles */
+.contact-container{
+    display: flex;
+    justify-content: space-between;
+    padding: 71px 0px;
+}
+.contact-title{
+    font-size: 97px;
+    font-weight: 600;
+}
+
+.form{
+    width: 497px;
+    margin: 0 auto;
+}
+.form label, input, textarea{
+    width: 100%;
+}
+.form label{
+    font-size: 18px;
+    font-family: inter;
+    font-weight: 600;
+}
+.form input, textarea{
+    font-size: 18px;
+    padding: 20px 32px;
+    margin: 10px 0px 20px 0px;
+    border: none;
+    border-color: #D6DDED;
+    border-width: 1px;
+    border-radius: 10px;
+}
+.btn-form{
+    display: block;
+    width: 497px;
+    width: 100%;
+    border: none;
+}
+
+/* footer styles */
+footer{
+    background-color: white;
+}
